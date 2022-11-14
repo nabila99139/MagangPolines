@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+
+/* Global Classes */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+    height:fit-content;
+}
+
+html, body{
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.luar{
+    /* border: 3px solid red; */
+    margin: 3%;
+}
+
+/* footer{
+    margin-top: 3%;
+} */
+
+.flex-row{
+    display: flex;
+    flex-direction: row;    
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style-type: none;
+}
+
+button.btn{
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+/* NAVBAR */
+.nav{
+    
+    padding: 0 2rem;
+    min-height: 10vh;
+    overflow: hidden;
+    transition: height 1s ease-in-out;
+}
+
+header a{
+    color: #FFFFFF;
+    /* display: block; */
+}
+
+.nav li{
+    display: inline-block;
+}
+
+.nav ul{
+    text-align: right;
+}
+
+/* .nav .dua{
+    display: flex;
+    margin: 0;
+    justify-content: end;
+} */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background: #047F2A;
+    padding-top: 10px ;
+}
+
+.nav .dua .nav-link{
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    position: relative;
+    font-size: 1.1rem;
+}
+
+
+.satu a{
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    display: block;
+}
+
+.satu{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.atas .logo{
+    margin-right:10px ;
+    width: 50px;
+    height: 50px;
+}
+
+
+/* ----------------------------------------------- */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background: #047F2A;
+    padding-top: 10px;
+}
+
+.nav-item{
+    padding: 0 1rem;
+}
+
+.nav-item a, .navbar-brand{
+    color: #FFFFFF !important;
+}
+
+.dropdown-menu{
+    background: #047F2A;
+}
+
+.dropdown-menu .dropdown-item:hover{
+    background: #03591e;
+}
+
+.navbar-toggler, .navbar-toggler-icon{
+    color: #FFFFFF;
+    /* background: #FFFFFF; */
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../images/menu.png);
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border: none;
+}
+
+
+/* ---------------------------------------------- */
+
+.foot{
+    background-color: #047F2A;
+    min-height: 800px;
+    padding: 1rem;
+}
+
+.foot .divLuar{
+    padding: 1rem;
+}
+
+.foot .f13, .foot .f13 a{
+    font-size: 13px;
+}
+
+.foot .tgh{
+    margin-top: 20px;
+}
+
+.foot .p{
+    color: #FFFFFF;
+    margin-bottom: 0.3rem;
+    margin-left: 40px;
+    
+}
+
+.foot .tentang{
+    display: flex;
+}
+
+.foot .tentang .logo{
+    height: 100px;
+    margin-right: 20px;
+}
+
+.foot .tentang h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.foot .tentang h1 a{
+    color: #FFFFFF;
+}
+
+.foot .deskripsi{
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.foot .mar{
+    margin-bottom: 20px;
+}
+
+.foot .kontak{
+    display: flex;
+}
+
+.foot .kontak p{
+    color: #FFD600;
+    margin-bottom: 0.5rem;
+}
+
+.foot .kontak img{
+    height: 30px;
+    margin-right: 10px;
+}
+
+.foot h3, .foot a, .foot h5{
+    color: #FFFFFF;
+}
+
+.foot ul{
+    list-style-type: disc;
+    color: #FFFFFF;
+}
+
+.foot .menjorok{
+    font-size: 15px;
+    padding-left: 30px;
+    margin-bottom: 26px;
+}
+
+.foot iframe{
+    margin-bottom: 40px;
+}
+
+.maps{
+    width: 100%;
+    height: 300px;
+}
+
+/* .maps{
+    width: 80%;
+    height: 350px;
+} */
+
